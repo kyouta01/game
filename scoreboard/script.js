@@ -33,7 +33,7 @@ resetBtn.addEventListener('click', () => {
 // tampilkan scoreboard saat load
 tampilkanScore();
 
-
+// Tombol Home kembali ke halaman utama
 document.getElementById('homeBtn').addEventListener('click', () => {
-  history.back();   // kembali ke halaman sebelumnya di riwayat browser
+  window.location.href = '/game/materi/index.html'; // ganti dengan nama file halaman utama Anda
 });
