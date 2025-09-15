@@ -35,5 +35,5 @@ tampilkanScore();
 
 // Tombol Home kembali ke halaman utama
 document.getElementById('homeBtn').addEventListener('click', () => {
-  window.location.href = '/game/materi/index.html'; // ganti dengan nama file halaman utama Anda
+  window.location.href = '/game/index.html'; // ganti dengan nama file halaman utama Anda
 });
